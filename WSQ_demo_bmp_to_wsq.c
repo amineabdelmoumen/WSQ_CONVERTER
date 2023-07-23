@@ -65,7 +65,7 @@ int main(char* input_file_name ,char* output_file_name)
 
         input_file_name = "./sample_image_2.tif";
 
-        output_file_name = "./output_image_2";
+        output_file_name = "./output_image_33";
         char* error = (char*) NULL;
 
         int width = 0;
