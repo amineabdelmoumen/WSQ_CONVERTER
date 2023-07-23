@@ -58,6 +58,5 @@ of code are needed. Sample projects are provided for:
 GNU C Compiler GCC.
 
 
-For latest version and more information please visit:
-http://www.cognaxon.com
+
 

@@ -62,18 +62,18 @@ int main()
 
          serial_number = GenerateSerialNumber();
 
-         printf("%s%s\n", "Generated serial number is:\n", serial_number);
-
+       /*   printf("%s%s\n", "Generated serial number is:\n", serial_number);
+ */
 
          ret = UnlockWSQLibrary(wsq_unlock_code);
 
-         if (ret == 1)
+        /*  if (ret == 1)
          {printf("%s\n", "WSQ library successfully registered to this computer.");}
          else if (ret == 0)
          {printf("%s\n", "Authorization code is invalid.");}
          else if (ret == 2)
          {printf("%s\n", "Error writing license file. Please check directory write permisions.");}
-
+ */
 
          dlclose(handle); // close the shared library
 
