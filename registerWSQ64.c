@@ -37,7 +37,7 @@ int main()
 
        if(handle == NULL)
        {
-         handle = dlopen("./libWSQ_library64.so", RTLD_LAZY); // open shared library;
+         handle = dlopen("./libWSQ_library64.so", RTLD_LAZY); // open shared library
          error = dlerror(); if(error){printf("%s\n", error); return 1;}
        }
 
